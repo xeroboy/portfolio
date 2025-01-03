@@ -1,0 +1,95 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #121212;
+    color: #f1f1f1;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: #00FF00;
+    text-shadow: 1px 1px 5px #00FF00;
+}
+
+a {
+    color: #00FF00;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.tagline {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Sections */
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+/* Contact info */
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+    border-top: 1px solid #00FF00;
+    padding-top: 10px;
+}
+
+footer p {
+    color: #777;
+}
+
+/* Achievements, Education, and Skills Sections */
+ul li {
+    font-size: 16px;
+}
+
+ul li strong {
+    color: #00FF00;
+}
+
+/* Achievements Hover Effects */
+.achievements li:hover {
+    background-color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+}
